@@ -38,7 +38,7 @@ services:
       - esdata02:/usr/share/elasticsearch/data
     networks:
       - esnet
-  kibene01:
+  kibana01:
     build: ./kibana
     container_name: kibana01
     links:
